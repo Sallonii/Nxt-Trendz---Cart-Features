@@ -41,6 +41,7 @@ class App extends Component {
             const updatedQuantity = eachItem.quantity - 1
             return {...eachItem, quantity: updatedQuantity}
           }
+          this.removeCartItem(id)
         }
         return eachItem
       }),
