@@ -72,7 +72,6 @@ const CartItem = props => (
           <button
             className="delete-button"
             type="button"
-            data-testid="remove"
             onClick={onRemoveCartItem}
             aria-label="button"
           >
